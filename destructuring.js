@@ -22,3 +22,23 @@ const student = {
 };
 
 const [firstMovie, secondMovie, ThirdMovie, forthMovie] = student.movies;
+
+// object destructuring
+const { name, age } = { name: "apple", age: 64 };
+const { name, age } = { id: 12, name: "alu", salary: 3400, age: 14 };
+
+const employee = {
+  ide: "VS code",
+  designation: "Developer",
+  machine: "mac",
+  language: ["html", "css", "js", "node"],
+  specification: {
+    hight: 68,
+    weight: 72,
+    address: "Dhaka",
+    drink: "normal water",
+  },
+};
+
+const { machine, ide } = employee;
+const { weight, address } = employee.specification;
