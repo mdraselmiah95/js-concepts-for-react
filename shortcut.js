@@ -44,7 +44,7 @@ const inputNum = +input;
 console.log(inputNum);
 
 //
-const isActive = true;
+let isActive = true;
 const showUser = () => console.log("Display user");
 const hideUser = () => console.log("Hide user");
 // isActive ? showUser() : hideUser();
@@ -53,3 +53,6 @@ const hideUser = () => console.log("Hide user");
 isActive && showUser();
 // use || if the left side is false then right side will be executed
 isActive || hideUser();
+
+// toggle boolean
+isActive = !isActive;
