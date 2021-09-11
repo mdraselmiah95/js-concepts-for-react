@@ -42,3 +42,9 @@ console.log(numStr);
 const input = "637";
 const inputNum = +input;
 console.log(inputNum);
+
+//
+const isActive = false;
+const showUser = () => console.log("Display user");
+const hideUser = () => console.log("Hide user");
+isActive ? showUser() : hideUser();
