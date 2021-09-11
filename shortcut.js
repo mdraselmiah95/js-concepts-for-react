@@ -29,3 +29,16 @@ console.log(foodOne);
 
 let drink = money > 100 && myVar > 100 ? "coke" : "normal water";
 console.log(drink);
+
+//number to string conversion
+
+const num1 = 98;
+console.log(num1);
+const numStr = num1 + "";
+console.log(numStr);
+
+//string to number
+
+const input = "637";
+const inputNum = +input;
+console.log(inputNum);
