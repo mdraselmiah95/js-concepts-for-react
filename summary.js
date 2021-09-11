@@ -32,6 +32,26 @@ Others
 1. array: map, forEach, filter, find
 2. ternary operator 
 3. logical and logical or && ||
-4. JOSN (stringify, parse)
+4. JSON (stringify, parse)
 5. +, 
 */
+const x = 50;
+const y = 100;
+const obj = {
+  x: x,
+  y: y,
+};
+
+// shortcut
+const obj1 = { x, y };
+
+const name = "Akbar";
+const area = "Dhaka";
+
+const king = {
+  name: name,
+  area: area,
+};
+
+const king2 = { name, area };
+console.log(king2);
