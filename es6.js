@@ -26,8 +26,9 @@ const doMath = (x, y) => {
 const newNumber = [...numbers];
 numbers.push(78);
 numbers.push(92);
-const currentNumbers = [...numbers, 55];
+
 //create a new array from an older array and add an element
+const currentNumbers = [...numbers, 55];
 
 console.log(numbers);
 console.log(newNumber);
