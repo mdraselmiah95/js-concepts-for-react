@@ -20,3 +20,7 @@ const numbers = [12, 55, 787, 89, 09, 23];
 numbers[0] = 54;
 
 //4. loop
+for (let i = 0; i < numbers.length; i++) {
+  const number = numbers[i];
+  console.log(number);
+}
