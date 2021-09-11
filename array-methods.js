@@ -24,4 +24,9 @@ const cheap = products.filter((product) => product.price <= 12000);
 console.log(cheap);
 
 const specificName = products.filter((product) => product.name.includes("la"));
-console.log(specificName);
+console.log(specificName); // filter will return all the matched elements
+
+//find
+
+const special = products.find((p) => p.name.includes("laptop"));
+console.log(special); // find will return only first matched element
