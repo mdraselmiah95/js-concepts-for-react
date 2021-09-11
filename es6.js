@@ -20,3 +20,15 @@ const doMath = (x, y) => {
   const sum = x + y;
   return sum;
 };
+
+//spread operator
+
+const newNumber = [...numbers];
+numbers.push(78);
+numbers.push(92);
+const currentNumbers = [...numbers, 55];
+//create a new array from an older array and add an element
+
+console.log(numbers);
+console.log(newNumber);
+console.log(currentNumbers);
