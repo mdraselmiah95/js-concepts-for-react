@@ -37,8 +37,14 @@ const employee = {
     weight: 72,
     address: "Dhaka",
     drink: "normal water",
+    watch: {
+      color: "black",
+      price: 3500,
+      brand: "Garmin",
+    },
   },
 };
 
 const { machine, ide } = employee;
 const { weight, address } = employee.specification;
+const { brand } = employee?.specification?.watch; //if specification is not exist then use ?= optional chancing
